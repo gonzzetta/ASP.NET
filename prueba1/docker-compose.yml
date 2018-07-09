@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  prueba1:
+    image: ${DOCKER_REGISTRY}prueba1
+    build:
+      context: .
+      dockerfile: prueba1\Dockerfile
